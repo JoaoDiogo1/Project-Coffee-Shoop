@@ -6,6 +6,7 @@
   <title>Coffeeshop</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <script> document.documentElement.className += ' js'; </script>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
@@ -18,7 +19,7 @@
   </nav>
   <section class="grid-section cafes" id="cafes">
     <h1 class="titulo">Coffeeshop</h1>
-    <ul class="cafes-lista">
+    <ul class="cafes-lista js-tabmenu">
       <li>
         <img src="img/imagem1.jpg">
       </li>
@@ -51,7 +52,7 @@
       </li>
 
     </ul>
-    <div class="cafes-descricao">
+    <div class="cafes-descricao js-tabcontent">
       <section>
         <h2>Café Expresso Tradicional</h2>
         <p>Um café expresso (do italiano caffè espresso), frequentemente referido simplesmente como expresso (ou internacionalmente espresso), é um método de preparar café através da passagem de água quente, não fervente, sob alta pressão pelo café moído.</p>
@@ -142,7 +143,6 @@
   <footer class="copy">
     <p>Todos os direitos reservados. ©</p>
   </footer>
-
-  <script src="script.js"></script>  
+<script src="/js/tabs-navegation.js"></script>
 </body>
 </html>
